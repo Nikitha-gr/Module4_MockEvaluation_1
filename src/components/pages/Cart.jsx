@@ -1,6 +1,8 @@
+import { Text } from "@chakra-ui/react";
+
 const Cart = () => {
     return (
-        <h1>This is Cart Page</h1>
+        <Text fontWeight="bold" fontSize="32px" color="blue.700" textAlign="center">Welcome to Cart Page</Text>
     )
 }
 

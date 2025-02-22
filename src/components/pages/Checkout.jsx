@@ -1,6 +1,8 @@
+import { Text } from "@chakra-ui/react";
+
 const Checkout = () => {
     return (
-        <h1>This is Checkout Page</h1>
+        <Text fontWeight="bold" fontSize="32px" color="blue.700" textAlign="center">Welcome to Checkout Page</Text>
     )
 }
 
