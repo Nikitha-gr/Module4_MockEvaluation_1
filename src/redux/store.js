@@ -5,7 +5,7 @@ import { composeWithDevTools } from "@redux-devtools/extension";
 
 const rootReducer = combineReducers({
     products : productReducer,
-    cart: cartReducer,
+    // cart: cartReducer,
 })
 
 export const store = createStore(
