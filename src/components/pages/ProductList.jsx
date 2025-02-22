@@ -33,7 +33,7 @@ const Productlist = () => {
 
     return (
         <>
-           <Text fontWeight="bold" fontSize="32px" color="blue.500"  textAlign="center">Welcome to Product Page</Text>
+           <Text fontWeight="bold" fontSize="32px" color="blue.700"  textAlign="center">Welcome to Product Page</Text>
             <Grid templateColumns="repeat(6,1fr)" gap={6} p={5}>
                 {products.map((product) => {
                     <GridItem key={product.id} border={"1px solid black"} borderRadius={5}>
@@ -42,7 +42,7 @@ const Productlist = () => {
                             <Box mt={4}>
                                 <Text fontWeight="bold" textAlign="center">{product.title}</Text>
                                 <Text textAlign="center" color="gray.200"> {product.price} </Text>
-                                <Button bg="blue.500" mt={4} padding="10px 20px">Add to Cart</Button>
+                                <Button bg="blue.700" mt={4} padding="10px 20px">Add to Cart</Button>
                             </Box>
                         </Box>
                     </GridItem>
